@@ -150,22 +150,16 @@ div .menuicon {
 }
 
 
+
 .header{
   background-color:#42f48f;
   margin:0px;
 
   vertical-align:middle; 
-  
-  position: fixed
-}
-#fixed-header{
-  position: fixed;
 }
 
 .header-block{
 display: inline-block;
-
-
 }
 
 #menu-toggle{
@@ -194,7 +188,4 @@ h1.header-block a:hover{
   text-decoration: none;
 }
 
-.solution{
-  overflow: auto; 
-}
 

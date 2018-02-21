@@ -61,9 +61,10 @@
 
             <div>
                 <form action="/least-squares" method="post">
+
                     <p>x:</p><input type="text" name="x" value="${x}"><br>
-                    <p>y:</p><input type="text" name="y"><br>
-                    <p>f(x):</p><input type="text" name="f"><br>
+                    <p>y:</p><input type="text" name="y" value="${y}"><br>
+                    <p>f(x):</p><input type="text" name="f" value="${f}"><br>
                     <input type="radio" name="method" value="gauss" checked> Gauss  
                     <input type="radio" name="method" value="gauss-jordan"> Gauss-Jordan<br>
                     <input type="radio" name="pivot" value="total" checked> Pivot Total  
@@ -74,6 +75,7 @@
             
             </div>
             <div class="solution">
+                <p>${logResult}</p>
                 <hr>
                 <pre>${solution}</pre>
                 <hr>

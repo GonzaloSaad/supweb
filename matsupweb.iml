@@ -13,5 +13,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax:javaee-web-api:6.0" level="project" />
     <orderEntry type="library" name="Maven: net.objecthunter:exp4j:0.4.8" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.10.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-core:2.10.0" level="project" />
   </component>
 </module>
