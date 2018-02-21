@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [12/Feb/2018:13:00:59 -0300] "GET /least-squares HTTP/1.1" 200 2422 http-bio-8082-exec-1 1628
+0:0:0:0:0:0:0:1 - - [12/Feb/2018:13:01:04 -0300] "GET /least-squares HTTP/1.1" 200 2422 http-bio-8082-exec-6 4
+0:0:0:0:0:0:0:1 - - [12/Feb/2018:13:01:06 -0300] "GET /home HTTP/1.1" 200 2385 http-bio-8082-exec-7 112
+0:0:0:0:0:0:0:1 - - [12/Feb/2018:13:01:09 -0300] "GET /least-squares HTTP/1.1" 200 2422 http-bio-8082-exec-8 4
+0:0:0:0:0:0:0:1 - - [12/Feb/2018:13:01:12 -0300] "GET /newton-raphson HTTP/1.1" 200 2420 http-bio-8082-exec-9 140
+0:0:0:0:0:0:0:1 - - [12/Feb/2018:13:01:15 -0300] "GET /runge-kutta HTTP/1.1" 200 2416 http-bio-8082-exec-10 92
+0:0:0:0:0:0:0:1 - - [12/Feb/2018:13:01:18 -0300] "GET /home HTTP/1.1" 200 2385 http-bio-8082-exec-1 0
+0:0:0:0:0:0:0:1 - - [12/Feb/2018:13:01:22 -0300] "GET /least-squares HTTP/1.1" 200 2422 http-bio-8082-exec-1 4
