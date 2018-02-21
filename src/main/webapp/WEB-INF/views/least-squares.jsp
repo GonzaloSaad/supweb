@@ -26,7 +26,7 @@
                 <div class="menuicon"></div>
                 <div class="menuicon"></div>
             </a>
-            <h1 class = "header-block"><a href="${pageContext.request.contextPath}/home">Matematica Superior<a> > Minimos Cuadrados</h1>
+            <h1 class = "header-block" id="fixed-header"><a href="${pageContext.request.contextPath}/home">Matematica Superior<a> > Minimos Cuadrados</h1>
         </div>
     <div id="wrapper">
 
@@ -61,7 +61,7 @@
 
             <div>
                 <form action="/least-squares" method="post">
-                    <p>x:</p><input type="text" name="x"><br>
+                    <p>x:</p><input type="text" name="x" value="${x}"><br>
                     <p>y:</p><input type="text" name="y"><br>
                     <p>f(x):</p><input type="text" name="f"><br>
                     <input type="radio" name="method" value="gauss" checked> Gauss  
@@ -73,9 +73,9 @@
                 </form>
             
             </div>
-            <div>
+            <div class="solution">
                 <hr>
-                <p>${solution}</p>
+                <pre>${solution}</pre>
                 <hr>
                 <p>${error}</p>
                 <hr>

@@ -86,6 +86,11 @@ public class EntryParser {
                 throw new IllegalStateException("One constant is needed per term.");
             }
             i++;
+
+            if (cleanFactors.size()==0){
+                cleanFactors.add("1");
+            }
+
             functions.add(new Function("O"+i+"(x)="+String.join("*", cleanFactors)));
             
         }

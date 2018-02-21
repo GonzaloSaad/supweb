@@ -27,6 +27,7 @@ public class LeastSquaresServlet extends HttpServlet {
 
         SolverService solverService = SolverService.createSolverService(x,y,f,m,p);
 
+        httpServletRequest.setAttribute("x",x);
         httpServletRequest.setAttribute("solution",solverService.getSolution());
         httpServletRequest.setAttribute("error",solverService.getError());
         httpServletRequest.setAttribute("finalFunction",solverService.getCompleteFunction());
